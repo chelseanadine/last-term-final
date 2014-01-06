@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hao Sushi</title>
+<link href="css/reset.css" rel="stylesheet">
+<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
+<style type="text/css"></style>
+<link href="css/general.css" rel="stylesheet">
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale-1">
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
+<style type="text/css"></style>
+</head>
+
+<body>
+	<header>
+		<img src="images/haologo.svg" alt="Hao logo" class="logo">
+		<nav class="nav nav-top" data-state="expanded">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="contact.html">Hours & Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main class="main">
+		<h1>Welcome to Hao Sushi</h1>
+		<h2>Ottawa's #1 Sushi Restaurant!</h2>
+		
+		<!-- Flexslider Starts -->
+		<div class="flexslider">
+  			<ul class="slides">
+    			<li>
+      				<img src="images/sushi4.jpg" alt="mixed sushi platter">
+    			</li>
+				<li>
+      				<img src="images/sushi5.jpg" alt="sushi roll platter">
+   				</li>
+    			<li>
+      				<img src="images/sushi6.jpg" alt="Asian buffet">
+    			</li>
+  			</ul>
+		</div>
+		<!-- Flexslider Ends -->
+	
+		<!-- Import the jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<!-- Import the Flexslider Plugin -->
+		<script src="flexslider/jquery.flexslider-min.js"></script>
+		<!-- Fires the plugin (tells it go GO!) -->
+		<script type="text/javascript" charset="utf-8">
+  			$(window).load(function() {
+    			$('.flexslider').flexslider({
+					animation: "slide",
+					slideshowSpeed: 3000,
+					pauseOnHover: true,
+				});
+  			});
+		</script>
+		
+		<p class="strong left col">Hello and welcome! We here at Hao Sushi are passionate about one thing: serving you the best quality sushi with the best possible service!</p>
+		<p class="right col">Relax with a pot of our green tea and listen to some traditional music while you wait for your order. We always use the freshest ingredients in our rolls, and our huge selection of menu items mean you can sample many different styles of Japanese and Asian cuisine. Our comfortable seating accomodations are complete with iPads at every table to make your ordering as quick and easy as possible.</p>
+		<p class="left col">Located in Nepean, we compete with some of the busiest sushi restaurants in the West End. Our All-You-Can-Eat restaurant is quaint and cozy for a more intimate dining experience.</p>
+		<p class="sentence">Be sure to check out our <a class="fancy-link ease-all" href="menu.html">menu</a> to get an idea of all the yummy food you can experience here at Hao!</p>
+	</main>
+	
+	<footer>
+		<p class="copyright maincopy">Copyright © 2013 Hao Sushi. All rights reserved.</p>
+	</footer>
+	
+	<script src="js/nav.js"></script>
+</body>
+</html>
